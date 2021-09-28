@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="STERP-Beans" />
+        <module name="STERP-Branch" />
+        <module name="STERP-Zone" />
+        <module name="STERP-Designation" />
+        <module name="STERP-ERPSettings" />
+        <module name="STERP-Company" />
+        <module name="STERP-Core" />
+        <module name="STERP-Employee" />
+        <module name="STERP-UploadUtility" />
+        <module name="STERP-Security" />
+        <module name="STERP" />
+        <module name="STERP-AssesmentTool" />
+        <module name="STERP-Department" />
+        <module name="STERP-AdminSetup" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="STERP" target="1.8" />
+      <module name="STERP-AdminSetup" target="1.7" />
+      <module name="STERP-API" target="1.8" />
+      <module name="STERP-AssesmentTool" target="1.8" />
+      <module name="STERP-Beans" target="1.8" />
+      <module name="STERP-Branch" target="1.8" />
+      <module name="STERP-Company" target="1.8" />
+      <module name="STERP-Core" target="1.8" />
+      <module name="STERP-Department" target="1.8" />
+      <module name="STERP-Designation" target="1.8" />
+      <module name="STERP-Employee" target="1.8" />
+      <module name="STERP-ERPSettings" target="1.8" />
+      <module name="STERP-Security" target="1.8" />
+      <module name="STERP-UploadUtility" target="1.8" />
+      <module name="STERP-Zone" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="STERP" options="-parameters" />
+      <module name="STERP-AdminSetup" options="-parameters" />
+      <module name="STERP-AssesmentTool" options="-parameters" />
+      <module name="STERP-Beans" options="-parameters" />
+      <module name="STERP-Branch" options="-parameters" />
+      <module name="STERP-Company" options="-parameters" />
+      <module name="STERP-Core" options="-parameters" />
+      <module name="STERP-Department" options="-parameters" />
+      <module name="STERP-Designation" options="-parameters" />
+      <module name="STERP-ERPSettings" options="-parameters" />
+      <module name="STERP-Employee" options="-parameters" />
+      <module name="STERP-Security" options="-parameters" />
+      <module name="STERP-UploadUtility" options="-parameters" />
+      <module name="STERP-Zone" options="-parameters" />
+    </option>
+  </component>
+</project>

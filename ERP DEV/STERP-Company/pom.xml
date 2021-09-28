@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.sterp</groupId>
+		<artifactId>STERP-API</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>STERP-Company</artifactId>
+	<name>Company Master</name>
+	<description>Tenant Company Master - Info about the Company
+	</description>
+	<properties>
+		<java.version>1.8</java.version>
+		<ignite.version>2.7.5</ignite.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.sterp</groupId>
+			<artifactId>STERP-ERPSettings</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.sterp.model.FileStorageProperties",
+      "sourceType": "com.sterp.model.FileStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.model.FileStorageProperties"
+    }
+  ],
+  "hints": []
+}

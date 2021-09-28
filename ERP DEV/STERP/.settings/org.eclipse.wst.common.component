@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="STERP-1.0.0">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="STERP-Beans-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Beans/STERP-Beans">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Core-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Core/STERP-Core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Security-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Security/STERP-Security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-ERPSettings-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-ERPSettings/STERP-ERPSettings">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Company-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Company/STERP-Company">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Zone-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Zone/STERP-Zone">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Branch-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Branch/STERP-Branch">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-AdminSetup-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-AdminSetup/STERP-AdminSetup">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Employee-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Employee/STERP-Employee">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Department-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Department/STERP-Department">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Designation-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Designation/STERP-Designation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-UploadUtility-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-UploadUtility/STERP-UploadUtility">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-AssesmentTool-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-AssesmentTool/STERP-AssesmentTool">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-IndustryType-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-IndustryType/STERP-IndustryType">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-Skill-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-Skill/STERP-Skill">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="STERP-AssessmentQuestionnaire-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/STERP-AssessmentQuestionnaire/STERP-AssessmentQuestionnaire">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                        
+        
+        <property name="context-root" value="STERP"/>
+                        
+        
+        <property name="java-output-path" value="/STERP/target/classes"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

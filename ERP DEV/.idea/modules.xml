@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/STERP/STERP.iml" filepath="$PROJECT_DIR$/STERP/STERP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-API.iml" filepath="$PROJECT_DIR$/STERP-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-AdminSetup/STERP-AdminSetup.iml" filepath="$PROJECT_DIR$/STERP-AdminSetup/STERP-AdminSetup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-AssesmentTool/STERP-AssesmentTool.iml" filepath="$PROJECT_DIR$/STERP-AssesmentTool/STERP-AssesmentTool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Beans/STERP-Beans.iml" filepath="$PROJECT_DIR$/STERP-Beans/STERP-Beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Branch/STERP-Branch.iml" filepath="$PROJECT_DIR$/STERP-Branch/STERP-Branch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Company/STERP-Company.iml" filepath="$PROJECT_DIR$/STERP-Company/STERP-Company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Core/STERP-Core.iml" filepath="$PROJECT_DIR$/STERP-Core/STERP-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Department/STERP-Department.iml" filepath="$PROJECT_DIR$/STERP-Department/STERP-Department.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Designation/STERP-Designation.iml" filepath="$PROJECT_DIR$/STERP-Designation/STERP-Designation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-ERPSettings/STERP-ERPSettings.iml" filepath="$PROJECT_DIR$/STERP-ERPSettings/STERP-ERPSettings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Employee/STERP-Employee.iml" filepath="$PROJECT_DIR$/STERP-Employee/STERP-Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Security/STERP-Security.iml" filepath="$PROJECT_DIR$/STERP-Security/STERP-Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-UploadUtility/STERP-UploadUtility.iml" filepath="$PROJECT_DIR$/STERP-UploadUtility/STERP-UploadUtility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STERP-Zone/STERP-Zone.iml" filepath="$PROJECT_DIR$/STERP-Zone/STERP-Zone.iml" />
+    </modules>
+  </component>
+</project>

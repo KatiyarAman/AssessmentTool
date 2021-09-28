@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/STERP-AdminSetup/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-AssesmentTool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Branch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Company/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Department/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Designation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-ERPSettings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Employee/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-UploadUtility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP-Zone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/STERP/src/main/java" charset="UTF-8" />
+  </component>
+</project>

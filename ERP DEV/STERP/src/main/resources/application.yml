@@ -1,0 +1,99 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 1035331564336-5lil2vcmss97tmtsr1p4f8e234dua0o6.apps.googleusercontent.com
+            clientSecret: Coa5bR_LfzBLDKCNu9gmHlhc
+            redirectUri: '{baseUrl}/oauth2/callback/{registrationId}'
+            scope:
+            - email
+            - profile
+          facebook:
+            clientId: 331577504630609
+            clientSecret: ef377891cb1239db4ce40c444d6891d8
+            redirectUri: '{baseUrl}/oauth2/callback/{registrationId}'
+            scope:
+            - email
+            - public_profile
+          github:
+            clientId: d3e47fc2ddd966fa4352
+            clientSecret: 3bc0f6b8332f93076354c2a5bada2f5a05aea60d
+            redirectUri: '{baseUrl}/oauth2/callback/{registrationId}'
+            scope:
+            - user:email
+            - read:user
+        provider:
+          facebook:
+            authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+            tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+            userInfoUri: https://graph.facebook.com/v3.0/me?fields=id,first_name,middle_name,last_name,name,email,verified,is_verified,picture.width(250).height(250)
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  mail:
+    host: smtp.gmail.com
+    username: navinder.singh@shivit.com
+    password: navinder@123
+    port: 587
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.connectiontimeout: 5000
+      mail.smtp.timeout: 5000
+      mail.smtp.writetimeout: 5000
+      mail.smtp.starttls.enable: true
+  profiles:
+    active:
+    - prod
+
+
+        
+version: '3.2'
+services:
+  postgres:
+    restart: always
+    container_name: mysql-standalone
+    image: mysql:8.0
+    ports:
+      - '5432:5432'
+    environment:
+         - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+         - MYSQL_USER=${MYSQL_USER}
+         - MYSQL_DB=${MYSQL_DB}
+# APP**
+  web:
+    build: .
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:5432/shivit_super_admin
+    expose:
+      - '5432'
+    ports:
+      - '5432:5432'
+aws:
+  access:
+    key:
+      id: AKIATSJCSK72REGRGYP2
+      secret: 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
+  region: us-east-2
+  s3:
+    audio:
+      bucket: minierpdoc
+
+file:
+  upload-dir: webapps/assessmentTool
+  
+# SSL Configuration
+server:
+  ssl:
+    key-store: ssl/hiromation.shivit.net.in.keystore
+    key-store-password: changeit
+    key-store-type: PKCS12
+  enabled: true
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  level:
+    org.hibernate.SQL: error

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.6.RELEASE</version>
+	</parent>
+	<groupId>com.sterp</groupId>
+	<artifactId>STERP-API</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+	<name>STERP-API</name>
+	<description>STERP</description>
+	<modules>
+		<module>STERP-Beans</module>
+		<module>STERP-Security</module>
+		<module>STERP-Core</module>
+		<module>STERP</module>
+		<module>STERP-ERPSettings</module>
+		<module>STERP-Company</module>
+		<module>STERP-Zone</module>
+		<module>STERP-AdminSetup</module>
+		<module>STERP-Branch</module>
+		<module>STERP-Employee</module>
+		<module>STERP-Department</module>
+		<module>STERP-Designation</module>
+		<module>STERP-UploadUtility</module>
+		<module>STERP-AssesmentTool</module>
+		<module>STERP-IndustryType</module>
+		<module>STERP-Skill</module>
+		<module>STERP-AssessmentQuestionnaire</module>
+	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.h2database</groupId>
+				<artifactId>h2</artifactId>
+				<version>1.4.195</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

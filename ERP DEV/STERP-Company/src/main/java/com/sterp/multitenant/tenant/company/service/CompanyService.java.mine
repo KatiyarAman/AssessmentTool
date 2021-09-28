@@ -1,0 +1,27 @@
+package com.sterp.multitenant.tenant.company.service;
+
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import com.sterp.multitenant.tenant.company.entity.Company;
+import com.sterp.multitenant.tenant.settings.template.entity.dto.DefaultSortDto;
+import com.sterp.multitenant.tenant.settings.template.entity.dto.ScreenFilterDTO;
+
+public interface CompanyService {
+	public Long getCount();
+
+	public Map<String, Object> addOrUpdateCompany(Company company, HttpServletRequest request, MultipartFile[] files);
+
+	public Map<String, Object> getActiveCompanies(String wildCard);
+
+	public Company getCompnayById(Long id);
+
+	public Map<String, Object> getCompanyList(int page, int limit, String search, Map<String, Object> advanceSearch,
+			Map<String, Object> advanceSearchAnd, String sort, String order, List<ScreenFilterDTO> screenFilterDTO,
+			boolean filterRemove, long moduleId, Map<String, Object> groupSort, DefaultSortDto defaultSort)
+			throws NoSuchFieldException, SecurityException;
+}

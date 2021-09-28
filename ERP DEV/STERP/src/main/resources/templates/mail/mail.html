@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verify Your Email</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<style>
+/* 	<a th:href="'http://hiretool.shivit.co.in/portal/candidate-profile-complete-form?token=' + ${accessToken} + '&verificationToken=' + ${emailVerificationToken}" class="btn  btn-primary">Click Here To Verify Your
+ */
+	
+</style>
+</head>
+<body>
+	<div class="contaier-fluid">
+		<div class="row justify-content-center">
+			<div class="col-8 shadow rounded p-3">
+				<p class="h5" th:text="${'Dear ' + candidate.name}"></p>
+				<p class="h6">We got your application for <span th:text="${jobTitle}"></span> Position
+					at Shivit Technologies Pvt. Ltd.</p>
+				<p>
+					Please Verify Your Email Address To Complete Your Job Application.
+					<br>
+				</p>
+				<p>
+					<!-- <a th:href="${hostName} + '/portal/candidate-profile-complete-form?token=' + ${accessToken} + '&verificationToken=' + ${emailVerificationToken}+'&jobPostingId='+${postingId}" class="btn  btn-primary">Click Here To Verify Your Email</a> -->
+					<a th:href="'https://hiringtech.shivit.net.in/portal/candidate-profile-complete-form?token=' + ${accessToken} + '&verificationToken=' + ${emailVerificationToken}+'&jobPostingId='+${postingId}" class="btn  btn-primary">Click Here To Verify Your Email</a>
+				</p>
+				<br>
+				<p>
+					If you have any questions then you can contact us on 0120-4572107
+					or write an email to info@shivit.com. <br> If you did't
+					applied then please ignore this email. Thank You <br> Team
+					Shivit.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

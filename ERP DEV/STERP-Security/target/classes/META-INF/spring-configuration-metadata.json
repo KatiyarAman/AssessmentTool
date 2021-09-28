@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.sterp.multitenant.constant.AppProperties",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties"
+    },
+    {
+      "name": "app.auth",
+      "type": "com.sterp.multitenant.constant.AppProperties$Auth",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties",
+      "sourceMethod": "public com.sterp.multitenant.constant.AppProperties.Auth getAuth() "
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.sterp.multitenant.constant.AppProperties$OAuth2",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties",
+      "sourceMethod": "public com.sterp.multitenant.constant.AppProperties.OAuth2 getOauth2() "
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource",
+      "type": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.auth.token-expiration-msec",
+      "type": "java.lang.Long",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties$Auth"
+    },
+    {
+      "name": "app.auth.token-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties$Auth"
+    },
+    {
+      "name": "app.oauth2.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.sterp.multitenant.constant.AppProperties$OAuth2"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    },
+    {
+      "name": "multitenancy.mtapp.master.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.sterp.multitenant.mastertenant.config.MasterDatabaseConfigProperties"
+    }
+  ],
+  "hints": []
+}
